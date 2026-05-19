@@ -1,11 +1,25 @@
 {
+  "name": "koinx-tax-harvesting",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+
   "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-icons": "^5.6.0"
   },
+
   "devDependencies": {
-    "@tailwindcss/vite": "^4.3.0",
-    "tailwindcss": "^4.3.0",
+    "@vitejs/plugin-react": "^4.6.0",
     "vite": "^8.0.12",
-    "@vitejs/plugin-react": "^4.6.0"
+    "@tailwindcss/vite": "^4.3.0",
+    "tailwindcss": "^4.3.0"
   }
 }
